@@ -396,7 +396,7 @@ IvysaurEvosMoves:
 	db 62, SOLARBEAM
 	db 0
 
-ExeggutorEvosMoves:w
+ExeggutorEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
