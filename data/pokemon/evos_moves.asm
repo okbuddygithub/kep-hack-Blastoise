@@ -396,7 +396,7 @@ IvysaurEvosMoves:
 	db 62, SOLARBEAM
 	db 0
 
-ExeggutorEvosMoves:
+ExeggutorEvosMoves:w
 ; Evolutions
 	db 0
 ; Learnset
@@ -2551,7 +2551,8 @@ CharmeleonEvosMoves:
 
 WartortleEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 36, TOTARTLE
+	db EV_LEVEL, 36, BLASTOISE
+	db EV_ITEM, LEAF_STONE, 1, TOTARTLE
 	db 0
 ; Learnset
 	db 8, BUBBLE
