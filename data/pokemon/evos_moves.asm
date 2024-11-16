@@ -2550,8 +2550,8 @@ CharmeleonEvosMoves:
 	db 0
 
 WartortleEvosMoves:
-; Evolutions
-	db EV_LEVEL, 36, TOTARTLE
+db EV_ITEM, LEAF_STONE, 35, TOTARTLE
+	db EV_LEVEL, 36, BLASTOISE
 	db 0
 ; Learnset
 	db 8, BUBBLE
